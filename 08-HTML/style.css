@@ -1,20 +1,35 @@
 h1 {
-    color:red
+    display: block;
+    color:rgba(38, 0, 255, 0.884)
 }
-
+h3{
+    color: rgb(151, 10, 38);
+}
+h4{
+    color: rgb(179, 160, 52);
+}
 img {
     width: 400px;
     height: 240px;
 }
 
 #thirdDiv {
-    background-color: aqua;
-    height: 500px;
-    width: 600px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(231, 201, 101);
+    height: 600px;
+    width: 500px;
     padding: 50px;
-    border: 10px solid burlywood;
-}
+    border: 10px solid rgb(182, 128, 57);
+    margin: auto;
+    }
+
 #spanId {
     font-size: 18px;
     margin: 50px;
+}
+#divClass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
